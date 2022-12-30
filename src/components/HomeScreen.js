@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/homescreen.css';
+import About from "./About.js";
 
 export default function HomeScreen(){
     return(
@@ -9,7 +10,7 @@ export default function HomeScreen(){
       </div>
       <div className="footer">
         <img className="zefirelli" alt="Zefirelli" src={require('../img/zefirelli.jpg')}/>
-        <a href={""} className="btn"><p className="btnTxt">Go to the magazine</p></a>
+        <a href={"About"} className="btn"><p className="btnTxt">Go to the magazine</p></a>
       </div>
     </div>
     );
