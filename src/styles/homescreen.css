@@ -14,7 +14,13 @@
     object-fit: cover;
     object-position:50% 50%;
 }
+.centralize-btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .btn{
+    margin-bottom:100px;
     position:absolute;
     width:300px;
     height:50px;
@@ -41,10 +47,6 @@
         width:400px;
         height:160px;
     }
-    .btn{
-        bottom:-8em;
-        right:5.5em;
-    }
 }
 @media (min-width:481px) and (max-width:768px){
 /*tablets*/
@@ -57,10 +59,6 @@
         width:660px;
         height:262px;
     }
-    .btn{
-        bottom:-15em;
-        right:13em;
-    }
 }
 @media (min-width:769px) and (max-width:1024px){
 /*desktop*/
@@ -71,10 +69,6 @@
         margin-top:5px;
         width:850px;
         height:352px;
-    }
-    .btn{
-        bottom:-21em;
-        right:22em;
     }
 }
 @media (min-width:1200px) and (max-width:2000px){
@@ -87,9 +81,5 @@
         margin-top:5px;
         width:900px;
         height:344px;
-    }
-    .btn{
-        bottom:-21em;
-        right:35em;
     }
 }

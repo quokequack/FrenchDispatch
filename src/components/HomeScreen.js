@@ -10,7 +10,9 @@ export default function HomeScreen(){
       </div>
       <div className="footer">
         <img className="zefirelli" alt="Zefirelli" src={require('../img/zefirelli.jpg')}/>
-        <a href={"About"} className="btn"><p className="btnTxt">Go to the magazine</p></a>
+        <div className="centralize-btn">
+          <a href={"About"} className="btn"><p className="btnTxt">Go to the magazine</p></a>
+        </div>
       </div>
     </div>
     );
