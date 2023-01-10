@@ -1,0 +1,152 @@
+.about{
+    height:100vh;
+    background-color:#77BBB3;
+}
+.headerAbout{
+    display:flex;
+    margin-left:5%;
+}
+.line{
+    background-color:white;
+    width:1%;
+    height:auto;
+    margin-right:2%;
+}
+.text, .line{
+    margin-top:5%;
+}
+.text{
+    height:50%;
+}
+.headerAbout h1{
+    font-family:'Poppins';
+    font-weight:800;
+    color:white;
+}
+.page{
+    margin-top:10%;
+    display:flex;
+    margin-left:5%;
+}
+.line2{
+    background-color:white;
+    width:1%;
+    height:auto;
+    margin-right:2%;
+}
+.text2{
+    width:90%;
+}
+.page p{
+    font-family:"Poppins";
+    font-weight:600;
+    color:white;
+    font-size:1.15em;
+    text-align:justify;
+
+}
+.footerAbout{
+    margin-top:20%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.signUpBtn{
+    text-align:center;
+    width:80%;
+    border:2px solid white;
+    border-radius:10px;
+    text-decoration:none;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 13px 8px -2px rgba(0,0,0,0.17); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 13px 8px -2px rgba(0,0,0,0.17);
+}
+.abtBtnTxt{
+    font-family:'Poppins';
+    font-weight:600;
+    font-size:1.1em;
+    color:white;
+}
+@media (min-width:320px) and (max-width:480px){
+    /*mobile*/
+    .page p{
+        font-size:1.15em;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    /*tablet*/
+    .headerAbout h1{
+        font-size:2.5em;
+    }
+    .page p{
+        font-size:1.4em;
+    }
+    .footerAbout{
+        margin-top:15%;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    /*desktop*/
+    .headerAbout h1{
+        font-size:3em;
+    }
+    .page p{
+        font-size:1.6em;
+    }
+    .footerAbout{
+        margin-top:10%;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    .headerAbout h1{
+        font-size:4em;
+    }
+    .page p{
+        font-size:1.8em;
+    }
+    .footerAbout{
+        margin-top:10%;
+    }
+    .signUpBtn{
+        width:40%;
+    }
+}
+@media (min-width:1201px) and (max-width:2000px){
+    .headerAbout h1{
+        font-size:5em;
+    }
+    .text, .line{
+        margin-top:2%;
+    }
+    .page{
+        margin:5%;
+    }
+    .page p{
+        font-size:2em;
+    }
+    .footerAbout{
+        margin-top:5%;
+    }
+    .signUpBtn{
+        width:40%;
+    }
+}
+@media (min-width:2001px) and (max-width:3000px){
+    .text, .line{
+        margin-top:2%;
+    }
+    .headerAbout h1{
+        font-size:5em;
+    }
+    .page{
+        margin-top:5%;
+    }
+    .page p{
+        font-size:2em;
+    }
+    .footerAbout{
+        margin-top:5%;
+    }
+    .signUpBtn{
+        width:40%;
+    }
+}
