@@ -1,0 +1,292 @@
+.signup{
+    height:120vh;
+    background-color:#5B8984;
+}
+.headerSignUp{
+    display:flex;
+    margin-left:5%;
+}
+.paragraph{
+    width:90%;
+}
+.paragraph p{
+    font-size:1.2em;
+    font-family:'Poppins';
+    font-weight:800;
+    color:white;
+    margin-left:5%;
+    text-align:justify;
+}
+.form{
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    margin-top:-8%;
+}
+.formTxt{
+    margin-left:9%;
+    font-size:1.3em;
+    font-family:'Poppins';
+    font-weight:600;
+    color:white;
+}
+.formBox{
+    align-self:center;
+    width:80%;
+    height:50px;
+    border-radius:23px;
+    border:2px solid white;
+    background-color:transparent;
+    font-family:'Poppins';
+    font-size:1.5em;
+    color:white;
+    margin-top:-2%;
+}
+.submitBtn{
+    align-self:center;
+    margin-top:4%;
+    width:40%;
+    height:50px;
+    border-radius:23px;
+    border:none;
+    background-color:white;
+    font-size:1.4em;
+    font-family:'Poppins';
+    font-weight:600;
+    color:#5B8984;
+    box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.1);
+}
+.footerSignUp{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.paragraph2{
+    font-family:'Poppins';
+    font-weight:600;
+    font-size:1.2em;
+    color:white;
+}
+.signinBtn{
+    border-radius:23px;
+    width:40%;
+    height:50px;
+    border:2px solid white;
+    text-decoration:none;
+    box-shadow: 0px 10px 6px -4px rgba(0,0,0,0.1);
+}
+.suBtnTxt{
+    text-align:center;
+    margin-top:4%;
+    font-family:'Poppins';
+    font-weight:600;
+    font-size:1.4em;
+    color:white;
+}
+@media (min-width:481px) and (max-width:768px){
+    .signup{
+        height:130vh;
+    }
+    .formBox{
+        height:60px;
+    }
+    .paragraph p{
+        font-size:1.8em;
+    }
+    .submitBtn, .signinBtn{
+        height:60px;
+    }
+    .paragraph2{
+        font-size:1.5em;
+    }
+}
+@media (orientation:landscape){
+    .signup{
+        height:300vh;
+    }
+    .formBox{
+        height:70px;
+        font-size:1.7em;
+    }
+    .paragraph p{
+        font-size:1.6em;
+    }
+    .form{
+        margin-top:5%;
+    }
+    .formTxt{
+        font-size:1.5em;
+    }
+    .submitBtn, .signinBtn{
+        height:60px;
+    }
+    .footerSignUp{
+        margin-bottom:-5%;
+    }
+    .submitBtn{
+        margin-top:2%;
+    }
+    .paragraph2{
+        font-size:1.7em;
+        margin-top:1%;
+    }
+    .signinBtn{
+        margin-top:-2%;
+    }
+    .suBtnTxt{
+        font-size:1.6em;
+    }
+    .submitBtn{
+        font-size:1.6em;
+    }
+    .suBtnTxt{
+        margin-top:3%;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .formBox{
+        height:70px;
+        font-size:1.7em;
+    }
+    .paragraph p{
+        font-size:1.6em;
+    }
+    .form{
+        margin-top:5%;
+    }
+    .formTxt{
+        font-size:1.5em;
+    }
+    .submitBtn, .signinBtn{
+        height:60px;
+    }
+    .footerSignUp{
+        margin-bottom:-5%;
+    }
+    .submitBtn{
+        margin-top:2%;
+    }
+    .paragraph2{
+        font-size:1.7em;
+        margin-top:1%;
+    }
+    .signinBtn{
+        margin-top:-2%;
+    }
+    .suBtnTxt{
+        font-size:1.6em;
+    }
+    .submitBtn{
+        font-size:1.6em;
+    }
+    .suBtnTxt{
+        margin-top:3%;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    .headerSignUp h1{
+        font-size:2.3em;
+    }
+    .formTxt{
+        margin-left:20%;
+    }
+    .formBox{
+        height:60px;
+        width:60%;
+    }
+    .paragraph p{
+        font-size:1.8em;
+    }
+    .form{
+        margin-top:-2%;
+    }
+    .paragraph2{
+        font-size:1.5em;
+    }
+    .signinBtn, .submitBtn{
+        width:20%;
+    }
+    .suBtnTxt{
+        margin-top:3%;
+    }
+}
+@media (min-width:1201px) and (max-width:2000px){
+    .headerSignUp h1{
+        font-size:2.4em;
+    }
+    .paragraph p{
+        font-size:1.5em;
+    }
+    .form{
+        margin-top:-2%;
+    }
+    .formBox{
+        width:30%;
+        height:40px;
+        font-size:1.5em;
+        margin-top:-1%;
+    }
+    .formTxt{
+        margin-left:35%;
+        font-size:1em;
+    }
+    .submitBtn{
+        width:10%;
+        margin-top:2%;
+        height:40px;
+        font-size:1.2em;
+    }
+    .paragraph2{
+        font-size:1em;
+    }
+    .signinBtn{
+        margin-top:-1%;
+        width:10%;
+        height:33px;
+    }
+    .suBtnTxt{
+        margin-top:3%;
+        font-size:1.2em;
+    }
+}
+@media (min-width:2001px) and (max-width:3000px){
+    .headerSignUp h1{
+        font-size:2.6em;
+    }
+    .paragraph p{
+        font-size:2em;
+    }
+    .form{
+        margin-top:-2%;
+    }
+    .formBox{
+        width:30%;
+        height:70px;
+        font-size:2em;
+        margin-top:-1%;
+    }
+    .formTxt{
+        font-size:1.8em;
+        margin-left:35%;
+    }
+    .submitBtn{
+        width:10%;
+        margin-top:1%;
+        height:65px;
+        font-size:1.8em;
+    }
+    .paragraph2{
+        font-size:1.9em;
+    }
+    .signinBtn{
+        width:10%;
+        height:65px;
+        margin-top:-0.5%;
+    }
+    .suBtnTxt{
+        margin-top:8%;
+        font-size:1.8em;
+        margin-top:5%;
+    }
+}

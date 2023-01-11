@@ -18,7 +18,7 @@
 .text{
     height:50%;
 }
-.headerAbout h1{
+h1{
     font-family:'Poppins';
     font-weight:800;
     color:white;
@@ -111,6 +111,9 @@
     }
 }
 @media (min-width:1201px) and (max-width:2000px){
+    .about{
+        height:150vh;
+    }
     .headerAbout h1{
         font-size:5em;
     }
